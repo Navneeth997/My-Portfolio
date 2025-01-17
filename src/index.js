@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
     <Routes>
-      <Route path="/My-Portfolio" element={<App />} />
+      <Route path="/" element={<App />} />
     </Routes>
   </HashRouter>
 );
